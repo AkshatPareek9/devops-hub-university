@@ -13,6 +13,41 @@ Containers package the **code, runtime, libraries, and dependencies**, ensuring 
 
 ---
 
+### 💻 Prerequisites & Installation
+
+Before using Docker, ensure you have the following:
+
+1. **Operating System**  
+   - Windows 10/11 (Pro, Enterprise, or Education)  
+   - macOS 10.13+  
+   - Linux (Ubuntu, CentOS, Debian, etc.)
+
+2. **System Requirements**  
+   - Minimum 4GB RAM  
+   - 64-bit OS with virtualization support  
+
+3. **Installation Steps**
+
+**Windows / macOS:**  
+- Download **Docker Desktop** from [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)  
+- Install and follow on-screen instructions  
+- Start Docker Desktop and verify with:  
+```bash
+docker --version
+```
+
+**Linux (Ubuntu example):**
+```bash
+sudo apt update
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+
+docker --version
+```
+
+---
+
 ### ⚙️ Docker Architecture
 
 Docker follows a **client-server architecture** consisting of several key components:
