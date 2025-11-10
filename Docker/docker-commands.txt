@@ -31,3 +31,6 @@ docker stop <container id>
 
 # Start the container
 docker start <container id>
+
+# to go inside container  
+docker exec -it <container_id> bash  
